@@ -108,36 +108,39 @@ else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[6][1] )
   
 #for eight qustion 
-print(question[0])
+print(question[7])
 
 for i in range(1):
-      print(options[0])
+      print(options[7])
+      
+answer=str(input())
+if (answer == "c"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[7][2] )
+  
+#for ninth qustion 
+print(question[8])
+
+for i in range(1):
+      print(options[8])
+      
+answer=str(input())
+if (answer == "c"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[8][2] )
+  
+#for tenth qustion 
+print(question[9])
+
+for i in range(1):
+      print(options[9])
       
 answer=str(input())
 if (answer == "b"):
   print(" Your are right and you won 1000")
 else:
-  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
-#for first qustion #for first qustion 
-print(question[0])
+  print("tmse na hopayega bhaya sahi answer ye hai", options[9][1] )
 
-for i in range(1):
-      print(options[0])
-      
-answer=str(input())
-if (answer == "b"):
-  print(" Your are right and you won 1000")
-else:
-  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
-#for first qustion #for first qustion 
-print(question[0])
-
-for i in range(1):
-      print(options[0])
-      
-answer=str(input())
-if (answer == "b"):
-  print(" Your are right and you won 1000")
-else:
-  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
-#for first qustion 
+print("well played")
