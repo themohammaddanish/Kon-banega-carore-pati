@@ -1,4 +1,5 @@
 '''Inisializing the Question '''
+total_prize=0
 question=["What is the capital of Nepal?" , 
           "Which is the highest mountain in Nepal?",
           "Which of the following is the national flower of Nepal?",
@@ -32,6 +33,8 @@ for i in range(1):
 answer=str(input())
 if (answer == "b"):
   print(" Your are right and you won 1000")
+  total_prize +=100
+
 else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
 
@@ -44,6 +47,7 @@ for i in range(1):
 answer=str(input())
 if (answer == "c"):
   print(" Your are right and you won 1000")
+  total_prize +=1000
 else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[1][2] )
   
@@ -56,6 +60,7 @@ for i in range(1):
 answer=str(input())
 if (answer == "b"):
   print(" Your are right and you won 1000")
+  total_prize +=1000
 else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[2][2] )
   
@@ -68,6 +73,7 @@ for i in range(1):
 answer=str(input())
 if (answer == "a"):
   print(" Your are right and you won 1000")
+  total_prize +=1000
 else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[3][0] )
   
@@ -80,6 +86,7 @@ for i in range(1):
 answer=str(input())
 if (answer == "c"):
   print(" Your are right and you won 1000")
+  total_prize +=1000
 else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[4][2] )
   
@@ -92,6 +99,7 @@ for i in range(1):
 answer=str(input())
 if (answer == "d"):
   print(" Your are right and you won 1000")
+  total_prize +=1000
 else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[5][3] )
   
@@ -104,6 +112,7 @@ for i in range(1):
 answer=str(input())
 if (answer == "b"):
   print(" Your are right and you won 1000")
+  total_prize +=1000
 else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[6][1] )
   
@@ -116,6 +125,7 @@ for i in range(1):
 answer=str(input())
 if (answer == "c"):
   print(" Your are right and you won 1000")
+  total_prize +=1000
 else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[7][2] )
   
@@ -128,6 +138,7 @@ for i in range(1):
 answer=str(input())
 if (answer == "c"):
   print(" Your are right and you won 1000")
+  total_prize +=1000
 else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[8][2] )
   
@@ -140,7 +151,8 @@ for i in range(1):
 answer=str(input())
 if (answer == "b"):
   print(" Your are right and you won 1000")
+  total_prize +=1000
 else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[9][1] )
 
-print("well played you won", )
+print("well played you won", total_prize )
