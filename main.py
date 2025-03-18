@@ -34,7 +34,6 @@ if (answer == "b"):
   print(" Your are right and you won 1000")
 else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
-#for first qustion 
 
 #for second qustion 
 print(question[1])
@@ -47,62 +46,68 @@ if (answer == "c"):
   print(" Your are right and you won 1000")
 else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[1][2] )
-#for first qustion #for first qustion 
-print(question[0])
+  
+#for third qustion 
+print(question[2])
 
 for i in range(1):
-      print(options[0])
+      print(options[2])
       
 answer=str(input())
 if (answer == "b"):
   print(" Your are right and you won 1000")
 else:
-  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
-#for first qustion #for first qustion 
-print(question[0])
+  print("tmse na hopayega bhaya sahi answer ye hai", options[2][2] )
+  
+#for fourth qustion 
+print(question[3])
 
 for i in range(1):
-      print(options[0])
+      print(options[3])
+      
+answer=str(input())
+if (answer == "a"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[3][0] )
+  
+#for fifth qustion 
+print(question[4])
+
+for i in range(1):
+      print(options[4])
+      
+answer=str(input())
+if (answer == "c"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[4][2] )
+  
+#for sixth qustion 
+print(question[5])
+
+for i in range(1):
+      print(options[5])
+      
+answer=str(input())
+if (answer == "d"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[5][3] )
+  
+#for seventh qustion 
+print(question[6])
+
+for i in range(1):
+      print(options[6])
       
 answer=str(input())
 if (answer == "b"):
   print(" Your are right and you won 1000")
 else:
-  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
-#for first qustion #for first qustion 
-print(question[0])
-
-for i in range(1):
-      print(options[0])
-      
-answer=str(input())
-if (answer == "b"):
-  print(" Your are right and you won 1000")
-else:
-  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
-#for first qustion #for first qustion 
-print(question[0])
-
-for i in range(1):
-      print(options[0])
-      
-answer=str(input())
-if (answer == "b"):
-  print(" Your are right and you won 1000")
-else:
-  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
-#for first qustion #for first qustion 
-print(question[0])
-
-for i in range(1):
-      print(options[0])
-      
-answer=str(input())
-if (answer == "b"):
-  print(" Your are right and you won 1000")
-else:
-  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
-#for first qustion #for first qustion 
+  print("tmse na hopayega bhaya sahi answer ye hai", options[6][1] )
+  
+#for eight qustion 
 print(question[0])
 
 for i in range(1):
