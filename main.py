@@ -26,9 +26,7 @@ options = [
 
 #for first qustion 
 print(question[0])
-
-for i in range(1):
-      print(options[0])
+print(options[0])
       
 answer=str(input())
 if (answer == "b"):
@@ -41,8 +39,7 @@ else:
 #for second qustion 
 print(question[1])
 
-for i in range(1):
-      print(options[1])
+print(options[1])
       
 answer=str(input())
 if (answer == "c"):
@@ -54,8 +51,7 @@ else:
 #for third qustion 
 print(question[2])
 
-for i in range(1):
-      print(options[2])
+print(options[2])
       
 answer=str(input())
 if (answer == "b"):
@@ -67,8 +63,7 @@ else:
 #for fourth qustion 
 print(question[3])
 
-for i in range(1):
-      print(options[3])
+print(options[3])
       
 answer=str(input())
 if (answer == "a"):
@@ -80,8 +75,8 @@ else:
 #for fifth qustion 
 print(question[4])
 
-for i in range(1):
-      print(options[4])
+
+print(options[4])
       
 answer=str(input())
 if (answer == "c"):
@@ -93,8 +88,7 @@ else:
 #for sixth qustion 
 print(question[5])
 
-for i in range(1):
-      print(options[5])
+print(options[5])
       
 answer=str(input())
 if (answer == "d"):
@@ -106,8 +100,7 @@ else:
 #for seventh qustion 
 print(question[6])
 
-for i in range(1):
-      print(options[6])
+print(options[6])
       
 answer=str(input())
 if (answer == "b"):
@@ -119,8 +112,7 @@ else:
 #for eight qustion 
 print(question[7])
 
-for i in range(1):
-      print(options[7])
+print(options[7])
       
 answer=str(input())
 if (answer == "c"):
@@ -132,8 +124,7 @@ else:
 #for ninth qustion 
 print(question[8])
 
-for i in range(1):
-      print(options[8])
+print(options[8])
       
 answer=str(input())
 if (answer == "c"):
@@ -145,8 +136,7 @@ else:
 #for tenth qustion 
 print(question[9])
 
-for i in range(1):
-      print(options[9])
+print(options[9])
       
 answer=str(input())
 if (answer == "b"):
