@@ -23,6 +23,7 @@ options = [
     ["Nepalese Dollar", "Nepalese Rupee", "Indian Rupee", "Yuan"]  
 ]
 
+#for first qustion 
 print(question[0])
 
 for i in range(1):
@@ -33,4 +34,6 @@ if (answer == options[0][1]):
   print("you won 1000")
 else:
   print("the anser is", options[0][1] )
-  
+
+#for first qustion 
+
