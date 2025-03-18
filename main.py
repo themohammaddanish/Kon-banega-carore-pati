@@ -36,17 +36,17 @@ else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
 #for first qustion 
 
-#for first qustion 
-print(question[0])
+#for second qustion 
+print(question[1])
 
 for i in range(1):
-      print(options[0])
+      print(options[1])
       
 answer=str(input())
-if (answer == "b"):
+if (answer == "c"):
   print(" Your are right and you won 1000")
 else:
-  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
+  print("tmse na hopayega bhaya sahi answer ye hai", options[1][2] )
 #for first qustion #for first qustion 
 print(question[0])
 
