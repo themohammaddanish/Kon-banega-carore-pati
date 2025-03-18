@@ -11,16 +11,16 @@ question=["What is the capital of Nepal?" ,
            "What is the currency of Nepal?"
           ]
 options = [
-    ["Pokhara", "Kathmandu", "Bhaktapur", "Lalitpur"],  
-    ["Kangchenjunga", "Makalu", "Mount Everest", "Dhaulagiri"],  
-    ["Lotus", "Rhododendron", "Sunflower", "Orchid"],  
-    ["Prithvi Narayan Shah", "Tribhuvan Bir Bikram Shah", "King Mahendra", "Rana Bahadur Shah"],  
-    ["Hindi", "English", "Nepali", "Newari"],  
-    ["Bagmati", "Koshi", "Gandaki", "Karnali"],  
-    ["Elephant", "Cow", "Tiger", "Snow Leopard"],  
-    ["Province 1", "Gandaki Province", "Lumbini Province", "Bagmati Province"],  
-    ["Baisakh 1", "Jestha 15", "Ashoj 3", "Kartik 20"],  
-    ["Nepalese Dollar", "Nepalese Rupee", "Indian Rupee", "Yuan"]  
+    ["A) Pokhara", "B) Kathmandu", "C) Bhaktapur", "D) Lalitpur"],
+    ["A) Kangchenjunga", "B) Makalu", "C) Mount Everest", "D) Dhaulagiri"],
+    ["A) Lotus", "B) Rhododendron", "C) Sunflower", "D) Orchid"],
+    ["A) Prithvi Narayan Shah", "B) Tribhuvan Bir Bikram Shah", "C) King Mahendra", "D) Rana Bahadur Shah"],
+    ["A) Hindi", "B) English", "C) Nepali", "D) Newari"],
+    ["A) Mount Everest", "B) K2", "C) Kangchenjunga", "D) Makalu"],  
+    ["A) Lumbini", "B) Kathmandu", "C) Pokhara", "D) Biratnagar"],      
+    ["A) Annapurna", "B) Mount Everest", "C) Kanchenjunga", "D) Manaslu"], 
+    ["A) Rajendra Prasad", "B) BP Koirala", "C) King Tribhuvan", "D) King Prithvi Narayan"],  
+    ["A) Nepalese Rupee", "B) Indian Rupee", "C) US Dollar", "D) Euro"]  
 ]
 
 #for first qustion 
@@ -30,10 +30,109 @@ for i in range(1):
       print(options[0])
       
 answer=str(input())
-if (answer == options[0][1]):
-  print("you won 1000")
+if (answer == "b"):
+  print(" Your are right and you won 1000")
 else:
-  print("the anser is", options[0][1] )
-
+  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
 #for first qustion 
 
+#for first qustion 
+print(question[0])
+
+for i in range(1):
+      print(options[0])
+      
+answer=str(input())
+if (answer == "b"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
+#for first qustion #for first qustion 
+print(question[0])
+
+for i in range(1):
+      print(options[0])
+      
+answer=str(input())
+if (answer == "b"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
+#for first qustion #for first qustion 
+print(question[0])
+
+for i in range(1):
+      print(options[0])
+      
+answer=str(input())
+if (answer == "b"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
+#for first qustion #for first qustion 
+print(question[0])
+
+for i in range(1):
+      print(options[0])
+      
+answer=str(input())
+if (answer == "b"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
+#for first qustion #for first qustion 
+print(question[0])
+
+for i in range(1):
+      print(options[0])
+      
+answer=str(input())
+if (answer == "b"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
+#for first qustion #for first qustion 
+print(question[0])
+
+for i in range(1):
+      print(options[0])
+      
+answer=str(input())
+if (answer == "b"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
+#for first qustion #for first qustion 
+print(question[0])
+
+for i in range(1):
+      print(options[0])
+      
+answer=str(input())
+if (answer == "b"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
+#for first qustion #for first qustion 
+print(question[0])
+
+for i in range(1):
+      print(options[0])
+      
+answer=str(input())
+if (answer == "b"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
+#for first qustion #for first qustion 
+print(question[0])
+
+for i in range(1):
+      print(options[0])
+      
+answer=str(input())
+if (answer == "b"):
+  print(" Your are right and you won 1000")
+else:
+  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
+#for first qustion 
