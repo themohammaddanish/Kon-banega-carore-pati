@@ -11,16 +11,16 @@ question=["What is the capital of Nepal?" ,
            "What is the currency of Nepal?"
           ]
 options = [
-    ["A) Pokhara", "B) Kathmandu", "C) Bhaktapur", "D) Lalitpur"],
-    ["A) Kangchenjunga", "B) Makalu", "C) Mount Everest", "D) Dhaulagiri"],
-    ["A) Lotus", "B) Rhododendron", "C) Sunflower", "D) Orchid"],
-    ["A) Prithvi Narayan Shah", "B) Tribhuvan Bir Bikram Shah", "C) King Mahendra", "D) Rana Bahadur Shah"],
-    ["A) Hindi", "B) English", "C) Nepali", "D) Newari"],
-    ["A) Mount Everest", "B) K2", "C) Kangchenjunga", "D) Makalu"],  
-    ["A) Lumbini", "B) Kathmandu", "C) Pokhara", "D) Biratnagar"],      
-    ["A) Annapurna", "B) Mount Everest", "C) Kanchenjunga", "D) Manaslu"], 
-    ["A) Rajendra Prasad", "B) BP Koirala", "C) King Tribhuvan", "D) King Prithvi Narayan"],  
-    ["A) Nepalese Rupee", "B) Indian Rupee", "C) US Dollar", "D) Euro"]  
+    ["A) Pokhara", "B) Kathmandu", "C) Bhaktapur", "D) Lalitpur"],  
+    ["A) Kangchenjunga", "B) Makalu", "C) Mount Everest", "D) Dhaulagiri"],  
+    ["A) Lotus", "B) Rhododendron", "C) Sunflower", "D) Orchid"],  
+    ["A) Prithvi Narayan Shah", "B) Tribhuvan Bir Bikram Shah", "C) King Mahendra", "D) Rana Bahadur Shah"],  
+    ["A) Hindi", "B) English", "C) Nepali", "D) Newari"],  
+    ["A) Bagmati", "B) Koshi", "C) Gandaki", "D) Karnali"],  
+    ["A) Elephant", "B) Cow", "C) Tiger", "D) Snow Leopard"],  
+    ["A) Province 1", "B) Gandaki Province", "C) Lumbini Province", "D) Bagmati Province"],  
+    ["A) Baisakh 1", "B) Jestha 15", "C) Ashoj 3", "D) Kartik 20"],  
+    ["A) Nepalese Dollar", "B) Nepalese Rupee", "C) Indian Rupee", "D) Yuan"]  
 ]
 
 #for first qustion 
@@ -143,4 +143,4 @@ if (answer == "b"):
 else:
   print("tmse na hopayega bhaya sahi answer ye hai", options[9][1] )
 
-print("well played")
+print("well played you won", )
