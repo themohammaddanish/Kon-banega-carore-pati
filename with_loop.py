@@ -32,7 +32,7 @@ correct_answers = ['b', 'c', 'b', 'a', 'c', 'd', 'b', 'c', 'c', 'b']
 
 # Loop through all questions
 for i in range(len(questions)):
-    print(f"\nQuestion {i+1}: {questions[i]}")
+    print(f"\nQuestion{i+1}: {questions[i]}")
     for opt in options[i]:
         print(opt)
 
