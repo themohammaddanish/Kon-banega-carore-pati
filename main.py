@@ -31,10 +31,10 @@ print(options[0])
 answer=str(input())
 if (answer == "b"):
   print(" Your are right and you won 1000")
-  total_prize +=100
+  total_prize +=1000
 
 else:
-  print("tmse na hopayega bhaya sahi answer ye hai", options[0][1] )
+  print("You are wrong", options[0][1] )
 
 #for second qustion 
 print(question[1])

@@ -32,7 +32,7 @@ correct_answers = ['b', 'c', 'b', 'a', 'c', 'd', 'b', 'c', 'c', 'b']
 
 # Loop through all questions
 for i in range(len(questions)):
-    print(f"\nQuestion{i+1}: {questions[i]}")
+    print(questions[i])
     for opt in options[i]:
         print(opt)
 
@@ -42,6 +42,11 @@ for i in range(len(questions)):
         total_prize += 1000
     else:
         correct_option_index = ord(correct_answers[i]) - ord('a')
-        print("Tmse na hopayega bhaya 😅. Sahi answer ye hai:", options[i][correct_option_index])
+        print("Your are wrong the correct answer is:", options[i][correct_option_index])
 
 print("\nWell played! You won a total of", total_prize)
+
+
+ask enter 
+hello world
+afgoellh123 afgdorlw123
